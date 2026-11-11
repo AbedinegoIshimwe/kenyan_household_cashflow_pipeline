@@ -1,0 +1,28 @@
+#ignore this
+data/raw_data/*
+data/processed_data/*
+
+# Keep empty data folders in Git
+!data/raw_data/.gitkeep
+!data/processed_data/.gitkeep
+
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and credentials
+.env
+.env.*
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
