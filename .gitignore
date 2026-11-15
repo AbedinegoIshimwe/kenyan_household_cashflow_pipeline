@@ -1,10 +1,9 @@
-#ignore this
-data/raw_data/*
-data/processed_data/*
+# Source data and generated outputs
+data/raw/*
+data/processed/*
 
-# Keep empty data folders in Git
-!data/raw_data/.gitkeep
-!data/processed_data/.gitkeep
+# Keep the input folder available for the source CSV
+!data/raw/.gitkeep
 
 # Python environments
 venv/
@@ -18,6 +17,7 @@ __pycache__/
 # Environment variables and credentials
 .env
 .env.*
+!.env.example
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
