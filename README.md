@@ -20,6 +20,7 @@ kenyan_household_cashflow_pipeline/
 │   ├── raw/                         # Original CSV; ignored by Git
 │   └── processed/                   # Generated CSV/JSON; ignored by Git
 ├── docs/
+│   ├── images/                      # Power BI screenshots and other visuals
 │   └── data_quality_report.md       # Generated profiling and quality notes
 ├── sql/
 │   ├── 01_create_tables.sql         # public.transactions table
@@ -121,3 +122,10 @@ are partial. See the SQL comments and quality report for these limitations.
 Metrics are household-level descriptive aggregates, not individual income or
 repayment claims. Review the source categories before using the view for lending
 decisions or Power BI.
+
+## Power BI dashboard
+
+Save the dashboard screenshot as `docs/images/powerbi_dashboard.png` to display
+it here:
+
+![Power BI dashboard](docs/images/powerbi_dashboard.png)
